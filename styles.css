@@ -92,15 +92,14 @@ a:hover, a:focus {
 }
 
 .main-content {
-  max-width: 940px;
   margin: 0 auto;
-  padding-top: 1.6rem;
+  padding-top: 2.5rem;
 }
 
 .home-intro {
   display: grid;
   grid-template-columns: 290px minmax(0, 1fr);
-  gap: clamp(2rem, 6vw, 5rem);
+  gap: 3.5rem;
   align-items: start;
 }
 
@@ -136,9 +135,13 @@ a:hover, a:focus {
 }
 
 .home-copy {
-  max-width: 34rem;
-  padding-top: 0.1rem;
+  font-size: 1.125rem;
+  line-height: 1.65;
 }
+
+.home-copy p { margin-bottom: 1.2em; }
+
+.contact-list { font-size: 1.05rem; }
 
 main h2, main h3 {
   margin: 0 0 0.45rem;
@@ -152,7 +155,6 @@ main p, main ul, main ol { margin: 0 0 0.7rem; }
 .accent { color: #1e5bc3; }
 
 footer {
-  max-width: 940px;
   margin: 3rem auto 0;
   padding-top: 0.9rem;
   border-top: 1px solid #dfe5ee;
